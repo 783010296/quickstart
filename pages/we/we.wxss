@@ -1,0 +1,35 @@
+/* we.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 150px;
+}
+
+.user-motto{
+  display: block;
+  text-align: center;
+  margin-top:10px;
+}
+
+#we .weui-cell_access{
+  background: #ffffff;
+}
+#we .weui-cell_access view:nth-child(2){
+  padding-left:10px;
+}

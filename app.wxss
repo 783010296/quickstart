@@ -1,0 +1,7 @@
+/**app.wxss**/
+@import "resource/wxss/weui.wxss";
+
+page{
+  height: 100%;
+  background: #f4f3f3;
+}

@@ -1,0 +1,38 @@
+<!--information.wxml-->
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">姓名</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="真实姓名"/>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">性别</view>
+    </view>
+    <view class="weui-cell__bd">
+      <icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:if="true"></icon>
+      <view class="weui-label">男</view>
+      <icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:if="true"></icon>
+      <view class="weui-label">女</view>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">微信号</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入您的微信号"/>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">收货地址</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="真实姓名"/>
+    </view>
+  </view>
+</view>

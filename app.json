@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/we/we",
+    "pages/gift/gift",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/birthday/birthday",
+    "pages/information/information"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/gift/gift",
+        "text": "礼物",
+        "iconPath": "resource/images/credit-level.png",
+        "selectedIconPath": "resource/images/credit-level-filling.png"
+      },
+      {
+        "pagePath": "pages/birthday/birthday",
+        "text": "生日",
+        "iconPath": "resource/images/component.png",
+        "selectedIconPath": "resource/images/component-filling.png"
+      },
+      {
+        "pagePath": "pages/we/we",
+        "text": "我的",
+        "iconPath": "resource/images/bussiness-man.png",
+        "selectedIconPath": "resource/images/account-filling.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
